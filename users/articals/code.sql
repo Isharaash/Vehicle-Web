@@ -1,0 +1,9 @@
+USE csmotors;
+CREATE TABLE artical(
+	id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(256) NOT NULL,
+    para_1 TEXT NOT NULL,
+    para_2 TEXT NOT NULL,
+    author VARCHAR(256) NOT NULL,
+    date DATETIME NOT NULL
+);

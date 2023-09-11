@@ -1,0 +1,12 @@
+CREATE TABLE book_form (
+	    id INT(255) AUTO_INCREMENT,
+        name VARCHAR(255),
+        email VARCHAR(255),
+        phone VARCHAR(10),
+        address VARCHAR(255),
+        location VARCHAR(255),
+        guests VARCHAR(10),
+        arrivals DATE,
+        leaving DATE,
+        PRIMARY KEY( id )
+	);
